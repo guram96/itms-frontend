@@ -1,0 +1,15 @@
+.layout {
+    height: 100vh;
+    background: #f9f9f9;
+    &__logo-container {
+        display: flex;
+        justify-content: center;
+    }
+    &__logo {
+        width: 64px;
+        margin: 24px;
+    }
+    &__sider {
+        border-right: 1px solid #ababab;
+    }
+}
